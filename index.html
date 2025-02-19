@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Cars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/Circle_Cars_w.png" alt="Website Logo" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#cars">Autos</a></li>
+                    <li><a href="about.html">Über uns</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-button">☰</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="hero-section">
+            <div class="hero-text">
+                <h1>Luxus erwartet Sie</h1>
+                <h2 class="subtitle">Willkommen bei Circle Cars, Ihrer erstklassigen Adresse für Luxusfahrzeuge. Erleben Sie erstklassigen Service und eine exklusive Auswahl an hochwertigen Fahrzeugen.</h2>
+                <button class="hero-button" onclick="window.location.href='#cars'">Check</button>
+            </div>
+            <img src="images/grayscale-photo-of-mercedes-benz-car.webp" alt="Hero Image" class="hero-image">
+        </div>
+
+        <div class="about-section">
+            <div class="about-image">
+                <img src="images/black-vehicle-on-road-between-trees-during-daytime.webp" alt="Circle Cars Showroom">
+            </div>
+            <div class="about-content">
+                <h2>Über uns</h2>
+                <p>Bei Circle Cars werden wir von der Leidenschaft für Luxusfahrzeuge und dem Streben nach Exzellenz angetrieben. Gegründet von der renommierten Gruppe "The Circle" befindet sich unser Autohaus in der malerischen Lakeside-Region, wo wir uns einen Ruf für außergewöhnliche Kauferlebnisse aufgebaut haben. Unsere umfangreiche Auswahl umfasst einige der feinsten Luxusmodelle und richtet sich an eine vielfältige Kundschaft, von Autoliebhabern bis hin zu Menschen, die Eleganz im Alltag suchen. Unser sachkundiges Team von Automobilexperten ist darauf spezialisiert, hervorragenden Kundenservice zu bieten und Sie bei jedem Schritt Ihrer Reise mit uns zu begleiten. Wir setzen auf Transparenz und Zugänglichkeit, damit Ihr Erlebnis bei Circle Cars nicht nur angenehm, sondern auch reibungslos verläuft. Entdecken Sie noch heute den Circle Cars Unterschied.</p>
+            </div>
+        </div>
+
+        <div class="why-us-section">
+            <h2>Warum wir?</h2>
+            <div class="why-us-content">
+                <div class="why-us-text left">
+                    <div class="why-us-item">
+                        <h3>Exklusive Luxusauswahl</h3>
+                        <p>Circle Cars bietet eine exklusive Auswahl an Luxusfahrzeugen und garantiert unseren Kunden Zugang zu einigen der feinsten Modelle.</p>
+                    </div>
+                    <div class="why-us-item">
+                        <h3>Transparent und Zugänglich</h3>
+                        <p>Das Unternehmen legt Wert auf Transparenz, indem es detaillierte Informationen und Preise für alle Fahrzeuge bereitstellt, sodass Kunden fundierte Entscheidungen treffen können.</p>
+                    </div>
+                </div>
+                <div class="why-us-image">
+                    <img src="images/gray-coupe-on-parking-area.webp" alt="Luxury Car Showroom">
+                </div>
+                <div class="why-us-text right">
+                    <div class="why-us-item">
+                        <h3>Außergewöhnlicher Kundenservice</h3>
+                        <p>Das Team von Circle Cars besteht aus Automobilexperten, die sich der Bereitstellung eines außergewöhnlichen Kundenservice während des gesamten Kaufprozesses widmen.</p>
+                    </div>
+                    <div class="why-us-item">
+                        <h3>Vielfältige Kundenbetreuung</h3>
+                        <p>Circle Cars bedient eine vielfältige Kundschaft und stellt sicher, dass eine breite Palette von Optionen für die Bedürfnisse und Präferenzen aller Kunden zur Verfügung steht.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+
+        <div class="tile-container">
+            <div class="tile">
+                <img src="images/stock_1.jpg" alt="Tile 1" class="tile-image">
+                <h3 class="tile-title">Titel 1</h3>
+                <p class="tile-description">Beschreibung Tile 1</p>
+            </div>
+            <div class="tile">
+                <img src="images/stock_1.jpg" alt="Tile 2" class="tile-image">
+                <h3 class="tile-title">Titel 2</h3>
+                <p class="tile-description">Beschreibung Tile 2</p>
+            </div>
+            <div class="tile">
+                <img src="images/stock_1.jpg" alt="Tile 3" class="tile-image">
+                <h3 class="tile-title">Titel 3</h3>
+                <p class="tile-description">Beschreibung Tile 3</p>
+            </div>
+            <div class="tile">
+                <img src="images/stock_1.jpg" alt="Tile 4" class="tile-image">
+                <h3 class="tile-title">Titel 4</h3>
+                <p class="tile-description">Beschreibung Tile 4</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Circle Cars by Kana</p>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger-button').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
+        
+</body>
+</html>

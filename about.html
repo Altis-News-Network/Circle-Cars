@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Cars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/Circle_Cars_w.png" alt="Website Logo" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#cars">Autos</a></li>
+                    <li><a href="about.html">Über uns</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-button">☰</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="about-page">
+            <h1>Über uns</h1>
+            
+            <div class="mission-section">
+                <div class="mission-content">
+                    <div class="mission-text">
+                        <h2>Unsere Mission</h2>
+                        <p>Unsere Mission bei Circle Cars ist es, das Luxus-Autokauferlebnis neu zu definieren, indem wir eine exklusive Auswahl an hochwertigen Fahrzeugen und einen unvergleichlichen Kundenservice anbieten. Wir setzen auf Transparenz, Zugänglichkeit und Integrität und stellen sicher, dass sich jeder Kunde auf seiner Reise mit uns geschätzt und gut informiert fühlt. Unser Team aus Automobilexperten ist bestrebt, dauerhafte Beziehungen zu unseren Kunden aufzubauen und bietet personalisierte Unterstützung, um ihre individuellen Bedürfnisse und Präferenzen zu erfüllen. Wir möchten eine einladende Umgebung schaffen, in der sowohl Autobegeisterte als auch Alltagsfahrer ihr Traumfahrzeug entdecken können. Durch unser Streben nach Exzellenz wollen wir die erste Adresse für Luxusautomobile in der Lakeside-Region und darüber hinaus sein.</p>
+                    </div>
+                    <div class="mission-image">
+                        <img src="images/about_1.webp" alt="Luxury Car Front View">
+                    </div>
+                </div>
+            </div>
+
+            <div class="values-section">
+                <div class="values-content">
+                    <div class="values-image">
+                        <img src="images/about_2.webp" alt="Luxury Car Detail">
+                    </div>
+                    <div class="values-text">
+                        <h2>Unsere Werte</h2>
+                        <p>Bei Circle Cars basieren unsere Werte auf Exzellenz, Transparenz und Kundenzufriedenheit. Wir haben uns verpflichtet, ein außergewöhnliches Kauferlebnis zu bieten, indem wir ausschließlich die feinsten Luxusfahrzeuge anbieten. Unsere Leidenschaft für hochwertige Automobile treibt uns an, höchste Qualitäts- und Servicestandards zu gewährleisten. Wir glauben an den Aufbau langfristiger Kundenbeziehungen durch Ehrlichkeit und offene Kommunikation, damit sich jeder Kunde geschätzt und informiert fühlt. Unser Team aus Automobilexperten setzt sich dafür ein, über die Erwartungen hinauszugehen und unsere Kunden in jeder Phase ihrer Reise zu unterstützen. Wir verkaufen nicht nur Autos; wir schaffen unvergessliche Erlebnisse, die unsere Hingabe zu Raffinesse und Eleganz widerspiegeln.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-hero-section">
+            <div class="contact-hero-text">
+                <h2>Nehmen Sie Kontakt mit Circle Cars auf: Ihr Luxusfahrzeug wartet!</h2>
+                <button class="contact-hero-button">Kontakt</button>
+            </div>
+            <img src="images/about_3.jpg" alt="Luxury Car Contact" class="contact-hero-image">
+        </div>
+            
+            <div class="team-section">
+                <h2>Unser Team</h2>
+                <p>Bei Circle Cars ist unser Team das Rückgrat unseres Erfolgs, bestehend aus leidenschaftlichen Automobilexperten, die sich Luxusfahrzeugen verschrieben haben. Jedes Teammitglied bringt einen reichen Erfahrungsschatz mit, um sicherzustellen, dass wir unseren Kunden den höchsten Servicestandard bieten. Wir legen Wert darauf, die individuellen Bedürfnisse jedes Kunden zu verstehen, egal ob erfahrene Autoliebhaber oder Erstkäufer im Luxussegment. Unser Team ist nicht nur in den Feinheiten von Luxusautomobilen versiert, sondern überzeugt auch durch vertrauensvolle und transparente Kundenbeziehungen. Wir begleiten Sie durch jeden Schritt des Kaufprozesses, von der ersten Anfrage bis zum Abschluss. Mit unserer gebündelten Expertise und Begeisterung für Luxusfahrzeuge schaffen wir für jeden Kunden ein außergewöhnliches und persönliches Erlebnis. Bei Circle Cars sind wir überzeugt, dass unser Engagement für Kundenzufriedenheit uns in der Automobilbranche einzigartig macht.</p>
+            </div>
+        </div>              
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Circle Cars by Kana</p>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger-button').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
