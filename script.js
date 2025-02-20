@@ -41,10 +41,8 @@ document.querySelectorAll('.sort-dropdown:first-child .slide li').forEach(item =
         
         cars.forEach(car => carsGrid.appendChild(car));
         
-        // Dropdown nach Auswahl schließen
         document.getElementById('touch').checked = false;
         
-        // Text im ERSTEN Dropdown-Button aktualisieren
         const dropdownSpan = document.querySelector('.sort-dropdown:first-child span');
         dropdownSpan.textContent = item.textContent;
     });
@@ -65,18 +63,15 @@ document.querySelectorAll('.sort-dropdown:nth-child(2) .slide li').forEach(item 
             }
         });
         
-        // Dropdown nach Auswahl schließen
         document.getElementById('touch2').checked = false;
         
-        // Text im ZWEITEN Dropdown-Button aktualisieren
         const dropdownSpan = document.querySelector('.sort-dropdown:nth-child(2) span');
         dropdownSpan.textContent = item.textContent;
     });
 });
 
-// Dynamische Höhe der Dropdowns und initiale Sortierung
+// Dynamische Höhe der Dropdowns, initiale Sortierung und Neuwagen-Anzeige
 document.addEventListener('DOMContentLoaded', () => {
-    // Dynamische Höhe
     const sortDropdown = document.querySelector('.sort-dropdown:first-child .slide');
     const brandDropdown = document.querySelector('.sort-dropdown:nth-child(2) .slide');
     
@@ -84,20 +79,44 @@ document.addEventListener('DOMContentLoaded', () => {
         sortDropdown.style.setProperty('--item-count', sortDropdown.children.length);
         brandDropdown.style.setProperty('--item-count', brandDropdown.children.length);
 
-        // Initiale Sortierung nach Preis absteigend
         const carsGrid = document.querySelector('.cars-grid');
         if (carsGrid) {
             const cars = Array.from(carsGrid.getElementsByClassName('car-card'));
             
+            // Initiale Sortierung nach Preis absteigend
             cars.sort((a, b) => {
                 const aValue = parseInt(a.dataset.price);
                 const bValue = parseInt(b.dataset.price);
-                return bValue - aValue;  // Absteigend
+                return bValue - aValue;
             });
             
-            cars.forEach(car => carsGrid.appendChild(car));
+            // Nur Neuwagen initial anzeigen
+            cars.forEach(car => {
+                if (car.dataset.condition === 'new') {
+                    car.style.display = 'block';
+                } else {
+                    car.style.display = 'none';
+                }
+                carsGrid.appendChild(car);
+            });
         }
     }
+});
+
+// Toggle für Gebraucht-/Neuwagen
+document.getElementById('carCondition').addEventListener('change', function() {
+    const isUsed = this.checked;
+    const carsGrid = document.querySelector('.cars-grid');
+    const cars = Array.from(carsGrid.getElementsByClassName('car-card'));
+    
+    cars.forEach(car => {
+        const condition = car.dataset.condition;
+        if ((isUsed && condition === 'new') || (!isUsed && condition === 'used')) {
+            car.style.display = 'block';
+        } else {
+            car.style.display = 'none';
+        }
+    });
 });
 
 // Gallery Navigation
@@ -107,7 +126,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const prev = document.querySelector('.gallery-nav.prev');
     const next = document.querySelector('.gallery-nav.next');
     
-    let currentIndex = 1; // Start mit dem zweiten Bild
+    let currentIndex = 1;
     
     function updateGallery() {
         const offset = -(currentIndex * 35) + 33;
@@ -124,6 +143,5 @@ document.addEventListener('DOMContentLoaded', () => {
         updateGallery();
     });
     
-    // Initiale Anzeige
     updateGallery();
 });
