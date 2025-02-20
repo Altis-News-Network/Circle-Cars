@@ -537,6 +537,7 @@ input[type="checkbox"] {
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s;
+    border-radius: 10px;
 }
 
 input[type="checkbox"]:before {
@@ -564,6 +565,7 @@ input[type="checkbox"]:before {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
+    border-radius: 8px;
 }
 
 input[type="checkbox"]:checked {
