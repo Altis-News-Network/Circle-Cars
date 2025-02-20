@@ -779,7 +779,7 @@ input[type="checkbox"]:checked:before {
     gap: 2rem;
     transform: translateX(0);
     transition: transform 0.5s ease;
-    padding: 0 60px; /* Platz für die Navigationselemente */
+    padding: 0 60px;
 }
 
 .gallery-image {
