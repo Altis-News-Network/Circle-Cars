@@ -495,9 +495,14 @@ h1 {
 }
 
 /* Toggle */
+.toggle-container-outer {
+    width: 50%;
+    min-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
 .toggle-wrapper {
-    position: absolute;
-    right: 0;
     height: 64.72px;
     background: transparent;
 }
@@ -568,7 +573,7 @@ input[type="checkbox"]:checked {
 
 input[type="checkbox"]:checked:before {
     content: "NEUWAGEN";
-    left: 7.3em;
+    left: 7.5em;
     color: #89befe;
 }
 
