@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circle Cars - Fahrzeuge</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/Circle_Cars_w.png" alt="Website Logo" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cars.html">Autos</a></li>
+                    <li><a href="about.html">Über uns</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-button">☰</button>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="cars-hero-section">
+            <h1>Unsere Fahrzeuge</h1>
+        </div>
+
+        <div class="dropdown-container">
+            <div class="sort-dropdown">
+                <label for="touch"><span>Sortieren nach</span></label>               
+                <input type="checkbox" id="touch"> 
+                <ul class="slide">
+                    <li data-sort="power" data-order="desc">Nach Leistung</li> 
+                    <li data-sort="speed" data-order="desc">Nach Höchstgeschwindigkeit</li>
+                    <li data-sort="trunk" data-order="desc">Nach Kofferraumvolumen</li>
+                    <li data-sort="price" data-order="asc">Nach Preis (aufsteigend)</li>
+                    <li data-sort="price" data-order="desc">Nach Preis (absteigend)</li>
+                </ul>
+            </div>
+            
+            <div class="sort-dropdown">
+                <label for="touch2"><span>Marke auswählen</span></label>               
+                <input type="checkbox" id="touch2"> 
+                <ul class="slide">
+                    <li data-brand="all">Alle Marken</li>
+                    <li data-brand="Mercedes">Mercedes</li>
+                    <li data-brand="BMW">BMW</li>
+                    <li data-brand="Audi">Audi</li>
+                    <li data-brand="Porsche">Porsche</li>
+                    <li data-brand="Buick">Buick</li>
+                </ul>
+            </div>
+        </div>                      
+
+        <div class="cars-grid">
+            <!-- Auto 1 -->
+            <div class="car-card" data-brand="Mercedes" data-power="585" data-speed="318" data-trunk="350" data-price="189900">
+                <div class="car-image">
+                    <img src="images/stock_1.jpg" alt="Mercedes-AMG GT 63 S">
+                </div>
+                <div class="car-info">
+                    <h2>Mercedes-AMG GT 63 S</h2>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Kofferraum:</span>
+                            <span class="spec-value">350 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Leistung:</span>
+                            <span class="spec-value">585 PS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Höchstgeschwindigkeit:</span>
+                            <span class="spec-value">318 km/h</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Preis:</span>
+                            <span class="spec-value">189.900 €</span>
+                        </div>
+                    </div>
+                    <button class="car-details-button">Details ansehen</button>
+                </div>
+            </div>
+
+            <!-- Auto 2 -->
+            <div class="car-card" data-brand="Porsche" data-power="510" data-speed="320" data-trunk="132" data-price="229900">
+                <div class="car-image">
+                    <img src="images/stock_1.jpg" alt="Porsche 911 GT3">
+                </div>
+                <div class="car-info">
+                    <h2>Porsche 911 GT3</h2>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Kofferraum:</span>
+                            <span class="spec-value">132 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Leistung:</span>
+                            <span class="spec-value">510 PS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Höchstgeschwindigkeit:</span>
+                            <span class="spec-value">320 km/h</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Preis:</span>
+                            <span class="spec-value">229.900 €</span>
+                        </div>
+                    </div>
+                    <a href="car-sites/Porsche_911_GT3.html" class="car-details-button">Details ansehen</a>
+                </div>
+            </div>
+
+            <!-- Auto 3 -->
+            <div class="car-card" data-brand="BMW" data-power="625" data-speed="305" data-trunk="460" data-price="159900">
+                <div class="car-image">
+                    <img src="images/stock_1.jpg" alt="BMW M5 Competition">
+                </div>
+                <div class="car-info">
+                    <h2>BMW M5 Competition</h2>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Kofferraum:</span>
+                            <span class="spec-value">460 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Leistung:</span>
+                            <span class="spec-value">625 PS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Höchstgeschwindigkeit:</span>
+                            <span class="spec-value">305 km/h</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Preis:</span>
+                            <span class="spec-value">159.900 €</span>
+                        </div>
+                    </div>
+                    <button class="car-details-button">Details ansehen</button>
+                </div>
+            </div>
+
+            <!-- Auto 4 -->
+            <div class="car-card" data-brand="Audi" data-power="646" data-speed="250" data-trunk="405" data-price="175900">
+                <div class="car-image">
+                    <img src="images/stock_1.jpg" alt="Audi RS e-tron GT">
+                </div>
+                <div class="car-info">
+                    <h2>Audi RS e-tron GT</h2>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Kofferraum:</span>
+                            <span class="spec-value">405 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Leistung:</span>
+                            <span class="spec-value">646 PS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Höchstgeschwindigkeit:</span>
+                            <span class="spec-value">250 km/h</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Preis:</span>
+                            <span class="spec-value">175.900 €</span>
+                        </div>
+                    </div>
+                    <button class="car-details-button">Details ansehen</button>
+                </div>
+            </div>
+
+            <!-- Auto 5 -->
+            <div class="car-card" data-brand="BMW" data-power="750" data-speed="290" data-trunk="520" data-price="195900">
+                <div class="car-image">
+                    <img src="images/stock_1.jpg" alt="BMW M5 Touring">
+                </div>
+                <div class="car-info">
+                    <h2>BMW M5 Touring</h2>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Kofferraum:</span>
+                            <span class="spec-value">520 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Leistung:</span>
+                            <span class="spec-value">750 PS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Höchstgeschwindigkeit:</span>
+                            <span class="spec-value">290 km/h</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Preis:</span>
+                            <span class="spec-value">195.900 €</span>
+                        </div>
+                    </div>
+                    <button class="car-details-button">Details ansehen</button>
+                </div>
+            </div>
+
+            <!-- Auto 6 -->
+            <div class="car-card" data-brand="BMW" data-power="328" data-speed="210" data-trunk="668" data-price="53000">
+                <div class="car-image">
+                    <img src="images/stock_1.jpg" alt="Buick Enclave ST">
+                </div>
+                <div class="car-info">
+                    <h2>Buick Enclave ST</h2>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Kofferraum:</span>
+                            <span class="spec-value">668 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Leistung:</span>
+                            <span class="spec-value">328 PS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Höchstgeschwindigkeit:</span>
+                            <span class="spec-value">210 km/h</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Preis:</span>
+                            <span class="spec-value">53.000 €</span>
+                        </div>
+                    </div>
+                    <button class="car-details-button">Details ansehen</button>
+                </div>
+            </div>
+
+            <!-- Auto 7 -->
+            <div class="car-card" data-brand="BMW" data-power="510" data-speed="290" data-trunk="385" data-price="169900">
+                <div class="car-image">
+                    <img src="images/stock_1.jpg" alt="BMW M4 Competition">
+                </div>
+                <div class="car-info">
+                    <h2>BMW M4 Competition</h2>
+                    <div class="car-specs">
+                        <div class="spec-item">
+                            <span class="spec-label">Kofferraum:</span>
+                            <span class="spec-value">385 L</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Leistung:</span>
+                            <span class="spec-value">510 PS</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Höchstgeschwindigkeit:</span>
+                            <span class="spec-value">290 km/h</span>
+                        </div>
+                        <div class="spec-item">
+                            <span class="spec-label">Preis:</span>
+                            <span class="spec-value">169.900 €</span>
+                        </div>
+                    </div>
+                    <button class="car-details-button">Details ansehen</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-hero-section">
+            <img src="images/cars_contact.jpg" alt="Contact Banner" class="contact-hero-image">
+            <div class="contact-hero-text">
+                <h2>Kontaktieren sie uns bei Interesse!</h2>
+                <button class="contact-hero-button" onclick="window.location.href='#contact'">Kontakt</button>
+            </div>
+        </div>        
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Circle Cars by Kana</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
