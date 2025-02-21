@@ -1,4 +1,32 @@
-// Hamburger Menu Funktionalität
+//Logo-Animation
+window.addEventListener('load', function() {
+    const animatedLogo = document.getElementById('animated-logo');
+    const logoOverlay = document.getElementById('logo-overlay');
+    const headerLogo = document.querySelector('.logo-img');
+    
+    setTimeout(function() {
+        animatedLogo.classList.add('final-position');
+        logoOverlay.style.backgroundColor = 'transparent';
+        
+        setTimeout(function() {
+            headerLogo.style.opacity = '1';
+        }, 1500);
+        
+        animatedLogo.addEventListener('transitionend', function() {
+            logoOverlay.style.display = 'none';
+        });
+    }, 1000);
+    
+    document.addEventListener('click', skipAnimation);
+    
+    function skipAnimation() {
+        document.removeEventListener('click', skipAnimation);
+        headerLogo.style.opacity = '1';
+        logoOverlay.style.display = 'none';
+    }
+});
+
+// Hamburger Menu
 document.querySelector('.hamburger-button').addEventListener('click', function() {
     document.querySelector('nav ul').classList.toggle('show');
 });

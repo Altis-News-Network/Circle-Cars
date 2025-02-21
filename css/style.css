@@ -21,6 +21,34 @@ body {
     overflow-x: hidden;
 }
 
+/* Logo Animation */
+#logo-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    z-index: 2000;
+    transition: background-color 1.5s ease-in-out;
+}
+
+#animated-logo {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1.5s ease-in-out;
+    width: 600px;
+    height: auto;
+}
+
+.final-position {
+    transform: translate(0, 0) scale(0.348) !important;
+    left: -180px !important;
+    top: -84px !important;
+}
+
 /* Header Styling */
 .main-header {
     background: linear-gradient(to bottom, #080808, #121212);
@@ -49,6 +77,11 @@ body {
     height: auto;
     width: 209px;
     max-height: none !important;
+}
+
+.home-logo {
+    opacity: 0;
+    transition: opacity 0s ease-in-out;
 }
 
 /* Navigation */
