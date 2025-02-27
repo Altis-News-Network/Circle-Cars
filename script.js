@@ -359,3 +359,26 @@ document.addEventListener('DOMContentLoaded', function() {
     
     resetMap();
 });
+
+// Drehende Visitenkarten
+document.addEventListener('DOMContentLoaded', function() {
+    // Nur für Touch-Geräte, um Tippen zu ermöglichen
+    if ('ontouchstart' in window) {
+        const cards = document.querySelectorAll('.card');
+        
+        cards.forEach(card => {
+            card.addEventListener('touchstart', function() {
+                this.classList.toggle('touch-flip');
+            });
+        });
+        
+        // Zusätzliche CSS-Klasse für Touch-Geräte
+        document.head.insertAdjacentHTML('beforeend', `
+            <style>
+                .card.touch-flip {
+                    transform: rotateY(180deg);
+                }
+            </style>
+        `);
+    }
+});
