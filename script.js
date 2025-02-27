@@ -1,28 +1,39 @@
-//Logo-Animation
+// Logo-Animation
 window.addEventListener('load', function() {
-    const animatedLogo = document.getElementById('animated-logo');
+    const isHomePage = window.location.pathname === '/' || 
+                       window.location.pathname === '/index.html' || 
+                       window.location.href.endsWith('index.html');
+    
     const logoOverlay = document.getElementById('logo-overlay');
+    const animatedLogo = document.getElementById('animated-logo');
     const headerLogo = document.querySelector('.logo-img');
     
-    setTimeout(function() {
-        animatedLogo.classList.add('final-position');
-        logoOverlay.style.backgroundColor = 'transparent';
+    if (isHomePage && logoOverlay && animatedLogo && headerLogo) {
+        logoOverlay.style.display = 'flex';
         
         setTimeout(function() {
-            headerLogo.style.opacity = '1';
-        }, 1500);
+            animatedLogo.classList.add('final-position');
+            logoOverlay.style.backgroundColor = 'transparent';
+            
+            setTimeout(function() {
+                headerLogo.style.opacity = '1';
+            }, 1500);
+            
+            animatedLogo.addEventListener('transitionend', function() {
+                logoOverlay.style.display = 'none';
+            });
+        }, 1000);
         
-        animatedLogo.addEventListener('transitionend', function() {
+        document.addEventListener('click', skipAnimation);
+        
+        function skipAnimation() {
+            document.removeEventListener('click', skipAnimation);
+            headerLogo.style.opacity = '1';
             logoOverlay.style.display = 'none';
-        });
-    }, 1000);
-    
-    document.addEventListener('click', skipAnimation);
-    
-    function skipAnimation() {
-        document.removeEventListener('click', skipAnimation);
-        headerLogo.style.opacity = '1';
-        logoOverlay.style.display = 'none';
+        }
+    } else {
+        if (logoOverlay) logoOverlay.style.display = 'none';
+        if (headerLogo) headerLogo.style.opacity = '1';
     }
 });
 
@@ -132,19 +143,32 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Toggle für Gebraucht-/Neuwagen
-document.getElementById('carCondition').addEventListener('change', function() {
-    const isUsed = this.checked;
-    const carsGrid = document.querySelector('.cars-grid');
-    const cars = Array.from(carsGrid.getElementsByClassName('car-card'));
+document.addEventListener('DOMContentLoaded', function() {
+    const isCarsPage = window.location.pathname === '/cars' || 
+                       window.location.pathname === '/cars.html' || 
+                       window.location.href.endsWith('cars.html');
     
-    cars.forEach(car => {
-        const condition = car.dataset.condition;
-        if ((isUsed && condition === 'new') || (!isUsed && condition === 'used')) {
-            car.style.display = 'block';
-        } else {
-            car.style.display = 'none';
-        }
-    });
+    const carConditionToggle = document.getElementById('carCondition');
+    
+    if (isCarsPage && carConditionToggle) {
+        carConditionToggle.addEventListener('change', function() {
+            const isUsed = this.checked;
+            const carsGrid = document.querySelector('.cars-grid');
+            
+            if (carsGrid) {
+                const cars = Array.from(carsGrid.getElementsByClassName('car-card'));
+                
+                cars.forEach(car => {
+                    const condition = car.dataset.condition;
+                    if ((isUsed && condition === 'new') || (!isUsed && condition === 'used')) {
+                        car.style.display = 'block';
+                    } else {
+                        car.style.display = 'none';
+                    }
+                });
+            }
+        });
+    }
 });
 
 // Gallery Navigation
@@ -172,4 +196,166 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     updateGallery();
+});
+
+// Interaktive Karte
+document.addEventListener('DOMContentLoaded', function() {
+    const mapContainer = document.getElementById('interactive-map');
+    const mapImage = document.getElementById('map-image');
+    const zoomInBtn = document.getElementById('zoom-in');
+    const zoomOutBtn = document.getElementById('zoom-out');
+    const resetBtn = document.getElementById('reset-map');
+    
+    if (!mapContainer || !mapImage) return;
+
+    // Anti-Drag-and-Drop für das Bild
+    mapImage.addEventListener('dragstart', function(e) {
+        e.preventDefault();
+    });
+        
+    // Verhindert das Kontextmenü (rechte Maustaste)
+    mapImage.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+    
+    let scale = 1;
+    let translateX = 0;
+    let translateY = 0;
+    let isDragging = false;
+    let startX, startY;
+    let lastTranslateX = 0;
+    let lastTranslateY = 0;
+    
+    // Zoom-Grenzen
+    const minScale = 1;
+    const maxScale = 4;
+    const scaleStep = 0.5;
+    
+    // Zoom-Funktionen
+    function updateMapTransform() {
+        // Begrenzung der Verschiebung
+        const containerRect = mapContainer.getBoundingClientRect();
+        const imageRect = mapImage.getBoundingClientRect();
+        
+        // Berechne die maximalen Verschiebungsgrenzen
+        const maxTranslateX = Math.max(0, (imageRect.width * scale - containerRect.width) / 2);
+        const maxTranslateY = Math.max(0, (imageRect.height * scale - containerRect.height) / 2);
+        
+        // Begrenze die Verschiebung
+        translateX = Math.max(-maxTranslateX, Math.min(maxTranslateX, translateX));
+        translateY = Math.max(-maxTranslateY, Math.min(maxTranslateY, translateY));
+        
+        mapImage.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+    }
+    
+    function zoomIn() {
+        if (scale < maxScale) {
+            scale += scaleStep;
+            updateMapTransform();
+        }
+    }
+    
+    function zoomOut() {
+        if (scale > minScale) {
+            scale -= scaleStep;
+            
+            if (scale <= minScale) {
+                scale = minScale;
+                translateX = 0;
+                translateY = 0;
+            }
+            
+            updateMapTransform();
+        }
+    }
+    
+    function resetMap() {
+        scale = 1;
+        translateX = 0;
+        translateY = 0;
+        updateMapTransform();
+    }
+    
+    // Event-Listener für Zoom-Buttons
+    zoomInBtn.addEventListener('click', zoomIn);
+    zoomOutBtn.addEventListener('click', zoomOut);
+    resetBtn.addEventListener('click', resetMap);
+    
+    mapContainer.addEventListener('mousedown', function(e) {
+        isDragging = true;
+        startX = e.clientX;
+        startY = e.clientY;
+        lastTranslateX = translateX;
+        lastTranslateY = translateY;
+        mapContainer.style.cursor = 'grabbing';
+    });
+    
+    document.addEventListener('mousemove', function(e) {
+        if (!isDragging) return;
+        
+        const dx = e.clientX - startX;
+        const dy = e.clientY - startY;
+        
+        translateX = lastTranslateX + dx;
+        translateY = lastTranslateY + dy;
+        updateMapTransform();
+    });
+    
+    document.addEventListener('mouseup', function() {
+        isDragging = false;
+        mapContainer.style.cursor = 'grab';
+    });
+    
+    // Touch-Unterstützung für mobile Geräte
+    mapContainer.addEventListener('touchstart', function(e) {
+        if (e.touches.length === 1) {
+            isDragging = true;
+            startX = e.touches[0].clientX;
+            startY = e.touches[0].clientY;
+            lastTranslateX = translateX;
+            lastTranslateY = translateY;
+            e.preventDefault();
+        }
+    });
+    
+    mapContainer.addEventListener('touchmove', function(e) {
+        if (!isDragging) return;
+        
+        const dx = e.touches[0].clientX - startX;
+        const dy = e.touches[0].clientY - startY;
+        
+        translateX = lastTranslateX + dx;
+        translateY = lastTranslateY + dy;
+        updateMapTransform();
+        e.preventDefault();
+    });
+    
+    mapContainer.addEventListener('touchend', function() {
+        isDragging = false;
+    });
+    
+    // Mausrad-Zoom
+    mapContainer.addEventListener('wheel', function(e) {
+        e.preventDefault();
+        
+        if (e.deltaY < 0 && scale < maxScale) {
+            // Zoom in
+            scale += scaleStep;
+        } else if (e.deltaY > 0 && scale > minScale) {
+            // Zoom out
+            scale -= scaleStep;
+            
+            if (scale <= minScale) {
+                scale = minScale;
+                translateX = 0;
+                translateY = 0;
+                updateMapTransform();
+                return;
+            }
+        }
+        
+        updateMapTransform();
+    });
+    
+    resetMap();
 });
