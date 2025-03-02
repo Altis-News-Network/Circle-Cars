@@ -625,6 +625,11 @@ input[type="checkbox"]:checked:before {
     padding-bottom: 4rem;
 }
 
+.cars-grid::after {
+    content: "";
+    grid-column: span 1;
+}
+
 .car-card {
     background: rgba(255, 255, 255, 0.03);
     border-radius: 10px;
