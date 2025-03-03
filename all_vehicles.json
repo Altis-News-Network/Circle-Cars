@@ -1,0 +1,2072 @@
+{
+  "d3s_urus_18": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Lamborghini Urus'18",
+      "ID": "d3s_urus_18"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "300",
+      "EnginePower (enginePower)": "650",
+      "Drehmoment (peakTorque)": "1400 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "900",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3.2",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "100",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "60",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3200",
+      "Reifenumfang (wheelCircumference)": "2.5",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "650",
+      "RadMasse (mass)": "15"
+    },
+    "ID": "d3s_urus_18"
+  },
+  "d3s_918spyder_15": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Porsche 918 Spyder '15",
+      "ID": "d3s_918spyder_15"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "300",
+      "EnginePower (enginePower)": "900",
+      "Drehmoment (peakTorque)": "2500 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "570",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_918spyder_15"
+  },
+  "d3s_chironSS_20": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Bugatti Chiron Super Sport '20",
+      "ID": "d3s_chironSS_20"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "500",
+      "EnginePower (enginePower)": "1100",
+      "Drehmoment (peakTorque)": "1800 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "450",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_chironSS_20"
+  },
+  "d3s_r8v10_19_D": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Audi R8 V10 Decennium '19",
+      "ID": "d3s_r8v10_19_D"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "950",
+      "Drehmoment (peakTorque)": "1500 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2700",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "400",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_r8v10_19_D"
+  },
+  "d3s_RIMConcept2_19_S": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Rimac Concept Two Carbon '19",
+      "ID": "d3s_RIMConcept2_19_S"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "500",
+      "EnginePower (enginePower)": "1100",
+      "Drehmoment (peakTorque)": "2300 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "350",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_RIMConcept2_19_S"
+  },
+  "d3s_lykan_15_R": {
+    "Allgemein": {
+      "DisplayName (displayName)": "W Motors Lykan HyperSport Red'16",
+      "ID": "d3s_lykan_15_R"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "1200",
+      "Drehmoment (peakTorque)": "1700 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3200",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "400",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_lykan_15_R"
+  },
+  "d3s_HuayraRoadster_19": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Pagani Huayra BC Roadster Drago Viola R'19",
+      "ID": "d3s_HuayraRoadster_19"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "1100",
+      "Drehmoment (peakTorque)": "2000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "350",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_HuayraRoadster_19"
+  },
+  "d3s_LP700_11_vip_mixa": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Lamborghini Aventador LP700 4Limited Mixa Mixov",
+      "ID": "d3s_LP700_11_vip_mixa"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "1100",
+      "Drehmoment (peakTorque)": "1800 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "450",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_LP700_11_vip_mixa"
+  },
+  "d3s_sian_20_P": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Lamborghini Sian MAT'20",
+      "ID": "d3s_sian_20_P"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "500",
+      "EnginePower (enginePower)": "1100",
+      "Drehmoment (peakTorque)": "1800 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "350",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_sian_20_P"
+  },
+  "d3s_continentalGT_14_V8": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Bentley Continental GT V8 S'14",
+      "ID": "d3s_continentalGT_14_V8"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "330",
+      "EnginePower (enginePower)": "635",
+      "Drehmoment (peakTorque)": "1200 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "200",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2500",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "520",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_continentalGT_14_V8"
+  },
+  "d3s_bentayga_V12_18": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Bentley Bentayga W12'18",
+      "ID": "d3s_bentayga_V12_18"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "300",
+      "EnginePower (enginePower)": "638",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "900",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "200",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "80",
+      "AnzahlSitze (transportSoldier)": "4",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3200",
+      "Reifenumfang (wheelCircumference)": "2.5",
+      "Federstärke (springStrength)": "80000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "570",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_bentayga_V12_18"
+  },
+  "d3s_one1_14": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Koenigsegg One:1 '14",
+      "ID": "d3s_one1_14"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "450",
+      "EnginePower (enginePower)": "1500",
+      "Drehmoment (peakTorque)": "1800 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "450",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_one1_14"
+  },
+  "d3s_jesko_20_E": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Koenigsegg Jesko Expensive'20",
+      "ID": "d3s_jesko_20_E"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "500",
+      "EnginePower (enginePower)": "1100",
+      "Drehmoment (peakTorque)": "2000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3600",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "350",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_jesko_20_E"
+  },
+  "d3s_regera_15_R": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Koenigsegg Regera R'15",
+      "ID": "d3s_regera_15_R"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "450",
+      "EnginePower (enginePower)": "1300",
+      "Drehmoment (peakTorque)": "1800 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "350",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_regera_15_R"
+  },
+  "d3s_veyron_12_SS": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Bugatti Veyron 16.4 Super Sport '12",
+      "ID": "d3s_veyron_12_SS"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "1200",
+      "Drehmoment (peakTorque)": "1700 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3200",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "400",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_veyron_12_SS"
+  },
+  "d3s_voiture_19": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Bugatti La Voiture Noire '19",
+      "ID": "d3s_voiture_19"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "1200",
+      "Drehmoment (peakTorque)": "2000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "450",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_voiture_19"
+  },
+  "d3s_LaFerrari_14": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Ferrari LaFerrari'14",
+      "ID": "d3s_LaFerrari_14"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "950",
+      "Drehmoment (peakTorque)": "1500 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "200",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2700",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "400",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_LaFerrari_14"
+  },
+  "d3s_F12tdf_16_P": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Ferrari F12tdf MAT'20",
+      "ID": "d3s_F12tdf_16_P"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "950",
+      "Drehmoment (peakTorque)": "1500 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2700",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "400",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_F12tdf_16_P"
+  },
+  "d3s_GTC4Lusso_16": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Ferrari GTC4Lusso '20",
+      "ID": "d3s_GTC4Lusso_16"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "320",
+      "EnginePower (enginePower)": "950",
+      "Drehmoment (peakTorque)": "1500 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2700",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "400",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_GTC4Lusso_16"
+  },
+  "d3s_vantage_19_GT4": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Aston Martin Vantage GT4 '19",
+      "ID": "d3s_vantage_19_GT4"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "1200",
+      "Drehmoment (peakTorque)": "1500 Nm",
+      "Beschleunigung (acceleration)": "17"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "1000",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "0"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "68",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2500",
+      "Reifenumfang (wheelCircumference)": "2.223",
+      "Federstärke (springStrength)": "70000",
+      "Dämpfungsrate (springDamperRate)": "3134",
+      "GefederteMasseVorne (sprungMass)": "700",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_vantage_19_GT4"
+  },
+  "d3s_dbs_19": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Aston Martin DBS Superleggera '19",
+      "ID": "d3s_dbs_19"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "270",
+      "EnginePower (enginePower)": "585",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "670",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_dbs_19"
+  },
+  "d3s_dbx_19": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Aston Martin DBX '19",
+      "ID": "d3s_dbx_19"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "270",
+      "EnginePower (enginePower)": "585",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "40000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "670",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_dbx_19"
+  },
+  "d3s_cullinan_19_BB": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Rolls-Royce Cullinan ''Black Badge''19",
+      "ID": "d3s_cullinan_19_BB"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "270",
+      "EnginePower (enginePower)": "608",
+      "Drehmoment (peakTorque)": "1200 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "900",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "200",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "80",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3200",
+      "Reifenumfang (wheelCircumference)": "2.5",
+      "Federstärke (springStrength)": "80000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "570",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_cullinan_19_BB"
+  },
+  "d3s_novus_phantom_18": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Rolls-Royce Phantom'18",
+      "ID": "d3s_novus_phantom_18"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "250",
+      "EnginePower (enginePower)": "571",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "0"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "80",
+      "AnzahlSitze (transportSoldier)": "4",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "4000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "650",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_novus_phantom_18"
+  },
+  "d3s_cayenne_s_16": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Porsche Cayenne S'16",
+      "ID": "d3s_cayenne_s_16"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "250",
+      "EnginePower (enginePower)": "340",
+      "Drehmoment (peakTorque)": "600 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "900",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "80",
+      "AnzahlSitze (transportSoldier)": "4",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3200",
+      "Reifenumfang (wheelCircumference)": "2.5",
+      "Federstärke (springStrength)": "80000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "470",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_cayenne_s_16"
+  },
+  "d3s_macan_turbo_16": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Porsche Macan Turbo'16",
+      "ID": "d3s_macan_turbo_16"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "295",
+      "EnginePower (enginePower)": "550",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "900",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3.0",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "80",
+      "AnzahlSitze (transportSoldier)": "4",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3200",
+      "Reifenumfang (wheelCircumference)": "2.5",
+      "Federstärke (springStrength)": "80000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "450",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_macan_turbo_16"
+  },
+  "d3s_panamera_s_17": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Porsche Panamera S'17",
+      "ID": "d3s_panamera_s_17"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "300",
+      "EnginePower (enginePower)": "585",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "900",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "100",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "80",
+      "AnzahlSitze (transportSoldier)": "4",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3200",
+      "Reifenumfang (wheelCircumference)": "2.5",
+      "Federstärke (springStrength)": "80000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "470",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_panamera_s_17"
+  },
+  "d3s_911carrera_20": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Porsche 911 Carrera 4S Cabriolet '20",
+      "ID": "d3s_911carrera_20"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "270",
+      "EnginePower (enginePower)": "585",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "6"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "670",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_911carrera_20"
+  },
+  "d3s_911gt3rs_18": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Porsche 911 GT3 RS '18",
+      "ID": "d3s_911gt3rs_18"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "270",
+      "EnginePower (enginePower)": "585",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "670",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_911gt3rs_18"
+  },
+  "d3s_ghibli_14_nerissimo": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Maserati Ghibli Nerissimo'14",
+      "ID": "d3s_ghibli_14_nerissimo"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "300",
+      "EnginePower (enginePower)": "500",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "17"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "1000",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "68",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.223",
+      "Federstärke (springStrength)": "70000",
+      "Dämpfungsrate (springDamperRate)": "5500",
+      "GefederteMasseVorne (sprungMass)": "600",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_ghibli_14_nerissimo"
+  },
+  "d3s_ghibli_14_30": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Maserati Ghibli 3.0'14",
+      "ID": "d3s_ghibli_14_30"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "250",
+      "EnginePower (enginePower)": "350",
+      "Drehmoment (peakTorque)": "700 Nm",
+      "Beschleunigung (acceleration)": "17"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.1",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "1000",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "68",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.223",
+      "Federstärke (springStrength)": "70000",
+      "Dämpfungsrate (springDamperRate)": "5500",
+      "GefederteMasseVorne (sprungMass)": "600",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_ghibli_14_30"
+  },
+  "d3s_FType_19": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Jaguar F-Type'16",
+      "ID": "d3s_FType_19"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "270",
+      "EnginePower (enginePower)": "585",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "100",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "670",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_FType_19"
+  },
+  "d3s_xes_15_SE": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Jaguar XE-S'15 Special Edition",
+      "ID": "d3s_xes_15_SE"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "250",
+      "EnginePower (enginePower)": "500",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "1000",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "47",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2500",
+      "Reifenumfang (wheelCircumference)": "2.223",
+      "Federstärke (springStrength)": "57750",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "700",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_xes_15_SE"
+  },
+  "d3s_amazing_ACS8_17_IND": {
+    "Allgemein": {
+      "DisplayName (displayName)": "BMW ACS8 Individual(I12)'17",
+      "ID": "d3s_amazing_ACS8_17_IND"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "298",
+      "EnginePower (enginePower)": "470",
+      "Drehmoment (peakTorque)": "900 Nm",
+      "Beschleunigung (acceleration)": "17"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "1000",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "2",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "68",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3500",
+      "Reifenumfang (wheelCircumference)": "2.223",
+      "Federstärke (springStrength)": "70000",
+      "Dämpfungsrate (springDamperRate)": "4134",
+      "GefederteMasseVorne (sprungMass)": "350",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_amazing_ACS8_17_IND"
+  },
+  "d3s_tuatara_19": {
+    "Allgemein": {
+      "DisplayName (displayName)": "SSC Tuatara '19",
+      "ID": "d3s_tuatara_19"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "350",
+      "EnginePower (enginePower)": "1100",
+      "Drehmoment (peakTorque)": "1800 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "450",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_tuatara_19"
+  },
+  "d3s_QUA_Regalia_23": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Quartz Regalia",
+      "ID": "d3s_QUA_Regalia_23"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "250",
+      "EnginePower (enginePower)": "557",
+      "Drehmoment (peakTorque)": "720 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "120",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3200",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "600",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_QUA_Regalia_23"
+  },
+  "d3s_senna_18": {
+    "Allgemein": {
+      "DisplayName (displayName)": "McLaren Senna '18",
+      "ID": "d3s_senna_18"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "500",
+      "EnginePower (enginePower)": "1200",
+      "Drehmoment (peakTorque)": "1800 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "450",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_senna_18"
+  },
+  "d3s_intensa_19_E": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Gumpert Apollo Intensa Emozione '19",
+      "ID": "d3s_intensa_19_E"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "500",
+      "EnginePower (enginePower)": "1100",
+      "Drehmoment (peakTorque)": "2000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "250",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "1",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3600",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "50000",
+      "Dämpfungsrate (springDamperRate)": "3534",
+      "GefederteMasseVorne (sprungMass)": "350",
+      "RadMasse (mass)": "20"
+    },
+    "ID": "d3s_intensa_19_E"
+  },
+  "d3s_vv222_18_2": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Mercedes-Maybach S650 Pullman'18 ",
+      "ID": "d3s_vv222_18_2"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "250",
+      "EnginePower (enginePower)": "623",
+      "Drehmoment (peakTorque)": "830 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.1",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "70",
+      "AnzahlSitze (transportSoldier)": "5",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.225",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "570",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_vv222_18_2"
+  },
+  "d3s_xtsroyale_13_2": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Cadillac XTS Royale 70 Guard'13 ",
+      "ID": "d3s_xtsroyale_13_2"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "220",
+      "EnginePower (enginePower)": "623",
+      "Drehmoment (peakTorque)": "830 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.1",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "70",
+      "AnzahlSitze (transportSoldier)": "5",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3000",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "570",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_xtsroyale_13_2"
+  },
+  "d3s_RS6_20": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Audi RS 6 Avant '19",
+      "ID": "d3s_RS6_20"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "250",
+      "EnginePower (enginePower)": "557",
+      "Drehmoment (peakTorque)": "720 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "0"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "4",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2700",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "520",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_RS6_20"
+  },
+  "d3s_RS6_20_D": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Audi RS 6 Avant '19 Dynamic Edition",
+      "ID": "d3s_RS6_20_D"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "270",
+      "EnginePower (enginePower)": "585",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "0"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "4",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2700",
+      "Reifenumfang (wheelCircumference)": "2.2249999",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "520",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_RS6_20_D"
+  },
+  "d3s_RS7_13": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Audi RS 7 Sportback'13",
+      "ID": "d3s_RS7_13"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "280",
+      "EnginePower (enginePower)": "585",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "100",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "3",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2700",
+      "Reifenumfang (wheelCircumference)": "2.225",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "570",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_RS7_13"
+  },
+  "d3s_Q7_15_D": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Audi SQ7 TDI (4M) '16",
+      "ID": "d3s_Q7_15_D"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "270",
+      "EnginePower (enginePower)": "585",
+      "Drehmoment (peakTorque)": "1000 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "0.5",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "800",
+      "MaximalDrehzahl (redRpm)": "6800"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "3",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "2"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "65",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "58",
+      "AnzahlSitze (transportSoldier)": "4",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "2700",
+      "Reifenumfang (wheelCircumference)": "2.225",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "4000",
+      "GefederteMasseVorne (sprungMass)": "570",
+      "RadMasse (mass)": "10"
+    },
+    "ID": "d3s_Q7_15_D"
+  },
+  "d3s_titan_17": {
+    "Allgemein": {
+      "DisplayName (displayName)": "Nissan Titan Warrior'17",
+      "ID": "d3s_titan_17"
+    },
+    "Leistungsdaten": {
+      "MaxSpeed (maxSpeed)": "220",
+      "EnginePower (enginePower)": "750",
+      "Drehmoment (peakTorque)": "1500 Nm",
+      "Beschleunigung (acceleration)": "15"
+    },
+    "Antriebssystem": {
+      "Antriebsart (differentialType)": "all_open",
+      "Gewichtsverteilung (frontRearSplit)": "",
+      "Frontbias (frontBias)": "2.5",
+      "Rearbias (rearBias)": "2.5",
+      "Centrebias (centreBias)": "2.5"
+    },
+    "Motordaten": {
+      "LeerlaufDrehzahl (idleRpm)": "500",
+      "MaximalDrehzahl (redRpm)": "5000"
+    },
+    "Fahrwerk": {
+      "Wendekoeffizient (turnCoef)": "2.5",
+      "Bremsweg (brakeDistance)": "3",
+      "Geländeinteraktion (terrainCoef)": "0"
+    },
+    "Sicherheit": {
+      "Panzerung (armor)": "5000",
+      "Insassenschutz (crewCrashProtection)": "0.25"
+    },
+    "Kapazität": {
+      "Kraftstoffkapazität (fuelCapacity)": "98",
+      "AnzahlSitze (transportSoldier)": "8",
+      "MaximaleWassertiefe (maxFordingDepth)": "0.5"
+    },
+    "Technische Daten": {
+      "Bremskraft (maxBrakeTorque)": "3700",
+      "Reifenumfang (wheelCircumference)": "2.5",
+      "Federstärke (springStrength)": "60000",
+      "Dämpfungsrate (springDamperRate)": "2000",
+      "GefederteMasseVorne (sprungMass)": "480",
+      "RadMasse (mass)": "25"
+    },
+    "ID": "d3s_titan_17"
+  }
+}
