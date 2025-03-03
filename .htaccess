@@ -4,7 +4,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^cars$ cars.html [NC,L]
 RewriteRule ^about$ about.html [NC,L]
 RewriteRule ^contact$ contact.html [NC,L]
-RewriteRule ^car-sites/Porsche_911_GT3$ car-sites/Porsche_911_GT3.html [NC,L]
 RewriteRule ^car-sites/urus$ car-sites/urus.html [NC,L]
 RewriteRule ^car-sites/porsche918$ car-sites/porsche918.html [NC,L]
 RewriteRule ^car-sites/rimac$ car-sites/rimac.html [NC,L]
