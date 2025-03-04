@@ -8,7 +8,41 @@
       "MaxSpeed (maxSpeed)": "300",
       "EnginePower (enginePower)": "650",
       "Drehmoment (peakTorque)": "1400 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.71
+        },
+        {
+          "rpm_percentage": 0.29,
+          "torque_percentage": 0.79
+        },
+        {
+          "rpm_percentage": 0.43,
+          "torque_percentage": 0.83
+        },
+        {
+          "rpm_percentage": 0.57,
+          "torque_percentage": 0.96
+        },
+        {
+          "rpm_percentage": 0.71,
+          "torque_percentage": 0.96
+        },
+        {
+          "rpm_percentage": 0.86,
+          "torque_percentage": 0.82
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.82
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -54,7 +88,41 @@
       "MaxSpeed (maxSpeed)": "300",
       "EnginePower (enginePower)": "900",
       "Drehmoment (peakTorque)": "2500 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -100,7 +168,41 @@
       "MaxSpeed (maxSpeed)": "500",
       "EnginePower (enginePower)": "1100",
       "Drehmoment (peakTorque)": "1800 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -146,7 +248,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "950",
       "Drehmoment (peakTorque)": "1500 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -192,7 +328,41 @@
       "MaxSpeed (maxSpeed)": "500",
       "EnginePower (enginePower)": "1100",
       "Drehmoment (peakTorque)": "2300 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -238,7 +408,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "1200",
       "Drehmoment (peakTorque)": "1700 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -284,7 +488,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "1100",
       "Drehmoment (peakTorque)": "2000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -330,7 +568,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "1100",
       "Drehmoment (peakTorque)": "1800 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -376,7 +648,41 @@
       "MaxSpeed (maxSpeed)": "500",
       "EnginePower (enginePower)": "1100",
       "Drehmoment (peakTorque)": "1800 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -422,7 +728,41 @@
       "MaxSpeed (maxSpeed)": "330",
       "EnginePower (enginePower)": "635",
       "Drehmoment (peakTorque)": "1200 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -468,7 +808,41 @@
       "MaxSpeed (maxSpeed)": "300",
       "EnginePower (enginePower)": "638",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -514,7 +888,41 @@
       "MaxSpeed (maxSpeed)": "450",
       "EnginePower (enginePower)": "1500",
       "Drehmoment (peakTorque)": "1800 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -560,7 +968,41 @@
       "MaxSpeed (maxSpeed)": "500",
       "EnginePower (enginePower)": "1100",
       "Drehmoment (peakTorque)": "2000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -606,7 +1048,41 @@
       "MaxSpeed (maxSpeed)": "450",
       "EnginePower (enginePower)": "1300",
       "Drehmoment (peakTorque)": "1800 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -652,7 +1128,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "1200",
       "Drehmoment (peakTorque)": "1700 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -698,7 +1208,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "1200",
       "Drehmoment (peakTorque)": "2000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -744,7 +1288,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "950",
       "Drehmoment (peakTorque)": "1500 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -790,7 +1368,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "950",
       "Drehmoment (peakTorque)": "1500 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -836,7 +1448,41 @@
       "MaxSpeed (maxSpeed)": "320",
       "EnginePower (enginePower)": "950",
       "Drehmoment (peakTorque)": "1500 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -882,7 +1528,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "1200",
       "Drehmoment (peakTorque)": "1500 Nm",
-      "Beschleunigung (acceleration)": "17"
+      "Beschleunigung (acceleration)": "17",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -928,7 +1608,41 @@
       "MaxSpeed (maxSpeed)": "270",
       "EnginePower (enginePower)": "585",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -974,7 +1688,41 @@
       "MaxSpeed (maxSpeed)": "270",
       "EnginePower (enginePower)": "585",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1020,7 +1768,41 @@
       "MaxSpeed (maxSpeed)": "270",
       "EnginePower (enginePower)": "608",
       "Drehmoment (peakTorque)": "1200 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1066,7 +1848,41 @@
       "MaxSpeed (maxSpeed)": "250",
       "EnginePower (enginePower)": "571",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1112,7 +1928,41 @@
       "MaxSpeed (maxSpeed)": "250",
       "EnginePower (enginePower)": "340",
       "Drehmoment (peakTorque)": "600 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1158,7 +2008,41 @@
       "MaxSpeed (maxSpeed)": "295",
       "EnginePower (enginePower)": "550",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.71
+        },
+        {
+          "rpm_percentage": 0.29,
+          "torque_percentage": 0.79
+        },
+        {
+          "rpm_percentage": 0.43,
+          "torque_percentage": 0.83
+        },
+        {
+          "rpm_percentage": 0.57,
+          "torque_percentage": 0.96
+        },
+        {
+          "rpm_percentage": 0.71,
+          "torque_percentage": 0.96
+        },
+        {
+          "rpm_percentage": 0.86,
+          "torque_percentage": 0.82
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.82
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1204,7 +2088,41 @@
       "MaxSpeed (maxSpeed)": "300",
       "EnginePower (enginePower)": "585",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1250,7 +2168,41 @@
       "MaxSpeed (maxSpeed)": "270",
       "EnginePower (enginePower)": "585",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1296,7 +2248,41 @@
       "MaxSpeed (maxSpeed)": "270",
       "EnginePower (enginePower)": "585",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1342,7 +2328,41 @@
       "MaxSpeed (maxSpeed)": "300",
       "EnginePower (enginePower)": "500",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "17"
+      "Beschleunigung (acceleration)": "17",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1388,7 +2408,41 @@
       "MaxSpeed (maxSpeed)": "250",
       "EnginePower (enginePower)": "350",
       "Drehmoment (peakTorque)": "700 Nm",
-      "Beschleunigung (acceleration)": "17"
+      "Beschleunigung (acceleration)": "17",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1434,7 +2488,41 @@
       "MaxSpeed (maxSpeed)": "270",
       "EnginePower (enginePower)": "585",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1480,7 +2568,41 @@
       "MaxSpeed (maxSpeed)": "250",
       "EnginePower (enginePower)": "500",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1526,7 +2648,41 @@
       "MaxSpeed (maxSpeed)": "298",
       "EnginePower (enginePower)": "470",
       "Drehmoment (peakTorque)": "900 Nm",
-      "Beschleunigung (acceleration)": "17"
+      "Beschleunigung (acceleration)": "17",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1572,7 +2728,41 @@
       "MaxSpeed (maxSpeed)": "350",
       "EnginePower (enginePower)": "1100",
       "Drehmoment (peakTorque)": "1800 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1618,7 +2808,41 @@
       "MaxSpeed (maxSpeed)": "250",
       "EnginePower (enginePower)": "557",
       "Drehmoment (peakTorque)": "720 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1664,7 +2888,41 @@
       "MaxSpeed (maxSpeed)": "500",
       "EnginePower (enginePower)": "1200",
       "Drehmoment (peakTorque)": "1800 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1710,7 +2968,41 @@
       "MaxSpeed (maxSpeed)": "500",
       "EnginePower (enginePower)": "1100",
       "Drehmoment (peakTorque)": "2000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1756,7 +3048,41 @@
       "MaxSpeed (maxSpeed)": "250",
       "EnginePower (enginePower)": "623",
       "Drehmoment (peakTorque)": "830 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1802,7 +3128,41 @@
       "MaxSpeed (maxSpeed)": "220",
       "EnginePower (enginePower)": "623",
       "Drehmoment (peakTorque)": "830 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1848,7 +3208,41 @@
       "MaxSpeed (maxSpeed)": "250",
       "EnginePower (enginePower)": "557",
       "Drehmoment (peakTorque)": "720 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1894,7 +3288,41 @@
       "MaxSpeed (maxSpeed)": "270",
       "EnginePower (enginePower)": "585",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1940,7 +3368,41 @@
       "MaxSpeed (maxSpeed)": "280",
       "EnginePower (enginePower)": "585",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.71
+        },
+        {
+          "rpm_percentage": 0.29,
+          "torque_percentage": 0.79
+        },
+        {
+          "rpm_percentage": 0.43,
+          "torque_percentage": 0.83
+        },
+        {
+          "rpm_percentage": 0.57,
+          "torque_percentage": 0.96
+        },
+        {
+          "rpm_percentage": 0.71,
+          "torque_percentage": 0.96
+        },
+        {
+          "rpm_percentage": 0.86,
+          "torque_percentage": 0.82
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.82
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -1986,7 +3448,41 @@
       "MaxSpeed (maxSpeed)": "270",
       "EnginePower (enginePower)": "585",
       "Drehmoment (peakTorque)": "1000 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",
@@ -2032,7 +3528,41 @@
       "MaxSpeed (maxSpeed)": "220",
       "EnginePower (enginePower)": "750",
       "Drehmoment (peakTorque)": "1500 Nm",
-      "Beschleunigung (acceleration)": "15"
+      "Beschleunigung (acceleration)": "15",
+      "Drehmomentkurve (torqueCurve)": [
+        {
+          "rpm_percentage": 0.0,
+          "torque_percentage": 0.0
+        },
+        {
+          "rpm_percentage": 0.14,
+          "torque_percentage": 0.70999998
+        },
+        {
+          "rpm_percentage": 0.28999999,
+          "torque_percentage": 0.79000002
+        },
+        {
+          "rpm_percentage": 0.43000001,
+          "torque_percentage": 0.82999998
+        },
+        {
+          "rpm_percentage": 0.56999999,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.70999998,
+          "torque_percentage": 0.95999998
+        },
+        {
+          "rpm_percentage": 0.86000001,
+          "torque_percentage": 0.81999999
+        },
+        {
+          "rpm_percentage": 1.0,
+          "torque_percentage": 0.81999999
+        }
+      ]
     },
     "Antriebssystem": {
       "Antriebsart (differentialType)": "all_open",

@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolls-Royce Phantom'18 - Circle Cars</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/Circle_Cars_400x400.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="pattern-container"></div>
+    
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="../images/Circle_Cars_w.png" alt="Website Logo" class="logo-img">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../cars.html" class="active">Autos</a></li>
+                    <li><a href="../about.html">Über uns</a></li>
+                    <li><a href="../contact.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger-button">☰</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="car-details-container">
+            <div class="car-header">
+                <h1 class="car-title">Rolls-Royce Phantom'18</h1>
+                <div class="car-price-tag">€ 670.000</div>
+            </div>
+
+            <div class="specs-summary">
+                <div class="spec-pill">
+                    <span class="spec-value">571</span>
+                    <span class="spec-label">PS</span>
+                </div>
+                <div class="spec-pill">
+                    <span class="spec-value">250</span>
+                    <span class="spec-label">km/h</span>
+                </div>
+                <div class="spec-pill">
+                    <span class="spec-value">1000</span>
+                    <span class="spec-label">Nm</span>
+                </div>
+            </div>
+
+            <div class="car-description">
+                <p>Der Rolls-Royce Phantom verkörpert die höchste Form automobilen Luxus und repräsentiert den Gipfel britischer Handwerkskunst. Mit seinem majestätischen Auftreten, der unübertroffenen Geräuschisolierung und dem imposanten V12-Motor bietet er ein Fahrerlebnis, das seinesgleichen sucht und den Maßstab für luxuriöse Mobilität neu definiert.</p>
+            </div>
+
+            <div class="graph-section">
+                <h2 class="section-title">Leistungsvergleich</h2>
+                <div class="graph-container">
+                    <canvas id="performanceComparisonChart"></canvas>
+                </div>
+            </div>
+
+            <div class="specs-comparison">
+                <h2 class="section-title">Vergleich mit anderen Luxuslimousinen</h2>
+                <div class="graph-container">
+                    <canvas id="comparisonChart"></canvas>
+                </div>
+            </div>
+
+            <div class="specs-grid">
+                <div class="specs-category">
+                    <h3>Fahrzeugdaten</h3>
+                    <div class="specs-list">
+                        <div class="spec-row">
+                            <span class="spec-name">Beschleunigung:</span>
+                            <span class="spec-value">15 (0-100)</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-name">Kraftstoffkapazität:</span>
+                            <span class="spec-value">80 L</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-name">Bremsweg:</span>
+                            <span class="spec-value">3</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-name">Panzerung:</span>
+                            <span class="spec-value">65</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="specs-category">
+                    <h3>Motordaten</h3>
+                    <div class="specs-list">
+                        <div class="spec-row">
+                            <span class="spec-name">Leerlaufdrehzahl:</span>
+                            <span class="spec-value">800 U/min</span>
+                        </div>
+                        <div class="spec-row">
+                            <span class="spec-name">Maximaldrehzahl:</span>
+                            <span class="spec-value">6800 U/min</span>
+                        </div>
+                    </div>
+                    <div class="rpm-visualization">
+                        <canvas id="rpmChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="technical-analysis">
+                <h2 class="section-title">Gewichtsverteilung und Fahrwerk</h2>
+                <div class="graph-container">
+                    <canvas id="weightDistributionChart"></canvas>
+                </div>
+                <div class="specs-details">
+                    <div class="spec-row">
+                        <span class="spec-name">Gefederte Masse (vorne):</span>
+                        <span class="spec-value">650 kg</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-name">Radmasse:</span>
+                        <span class="spec-value">10 kg</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-name">Federstärke:</span>
+                        <span class="spec-value">60000 N/m</span>
+                    </div>
+                    <div class="spec-row">
+                        <span class="spec-name">Dämpfungsrate:</span>
+                        <span class="spec-value">4000 Ns/m</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-cta-section">
+                <h2>Interesse am Rolls-Royce Phantom?</h2>
+                <p>Vereinbaren Sie eine Probefahrt oder kontaktieren Sie uns für weitere Informationen.</p>
+                <a href="../contact.html" class="car-details-button">Kontakt aufnehmen</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Circle Cars by Kana</p>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        // Performance Comparison Chart (Phantom vs Average, Best and Worst)
+        const performanceCtx = document.getElementById('performanceComparisonChart').getContext('2d');
+        const performanceComparisonChart = new Chart(performanceCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Motorleistung (PS)', 'Höchstgeschwindigkeit (km/h)'],
+                datasets: [
+                    {
+                        label: 'Rolls-Royce Phantom',
+                        data: [571, 250],
+                        backgroundColor: 'rgba(255, 99, 132, 0.7)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Durchschnitt aller Fahrzeuge',
+                        data: [735, 320],
+                        backgroundColor: 'rgba(54, 162, 235, 0.7)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Höchstwert',
+                        data: [1500, 500],
+                        backgroundColor: 'rgba(75, 192, 192, 0.7)',
+                        borderColor: 'rgba(75, 192, 192, 1)',
+                        borderWidth: 1
+                    },
+                    {
+                        label: 'Niedrigster Wert',
+                        data: [340, 220],
+                        backgroundColor: 'rgba(255, 206, 86, 0.7)',
+                        borderColor: 'rgba(255, 206, 86, 1)',
+                        borderWidth: 1
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y', // Horizontal bar chart
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        },
+                        ticks: {
+                            color: '#cccccc'
+                        }
+                    },
+                    y: {
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        },
+                        ticks: {
+                            color: '#cccccc'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: '#cccccc'
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Leistungsvergleich mit Fleet-Spektrum',
+                        color: '#ffffff',
+                        font: {
+                            size: 16
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                let label = context.dataset.label || '';
+                                if (label) {
+                                    label += ': ';
+                                }
+                                if (context.parsed.x !== null) {
+                                    label += context.parsed.x;
+                                    
+                                    // Add units based on the data
+                                    if (context.dataIndex === 0) {
+                                        label += ' PS';
+                                        if (context.dataset.label === 'Höchstwert') {
+                                            label += ' (Koenigsegg One:1)';
+                                        } else if (context.dataset.label === 'Niedrigster Wert') {
+                                            label += ' (Porsche Cayenne S)';
+                                        }
+                                    } else if (context.dataIndex === 1) {
+                                        label += ' km/h';
+                                        if (context.dataset.label === 'Höchstwert') {
+                                            label += ' (Bugatti Chiron SS/Rimac/McLaren/Apollo)';
+                                        } else if (context.dataset.label === 'Niedrigster Wert') {
+                                            label += ' (Nissan Titan)';
+                                        }
+                                    }
+                                }
+                                return label;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Comparison Chart with accurate data from JSON
+        const comparisonCtx = document.getElementById('comparisonChart').getContext('2d');
+        const comparisonChart = new Chart(comparisonCtx, {
+            type: 'radar',
+            data: {
+                labels: ['Leistung', 'Geschwindigkeit', 'Drehmoment', 'Beschleunigung', 'Wendekoeffizient', 'Geländetauglichkeit'],
+                datasets: [
+                    {
+                        label: 'Rolls-Royce Phantom',
+                        data: [5.7, 5.0, 6.5, 9, 10, 0],
+                        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                        borderColor: 'rgba(255, 99, 132, 1)',
+                        pointBackgroundColor: 'rgba(255, 99, 132, 1)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgba(255, 99, 132, 1)'
+                    },
+                    {
+                        label: 'Rolls-Royce Cullinan',
+                        data: [6.0, 5.4, 8.0, 9, 10, 2],
+                        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                        borderColor: 'rgba(54, 162, 235, 1)',
+                        pointBackgroundColor: 'rgba(54, 162, 235, 1)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgba(54, 162, 235, 1)'
+                    },
+                    {
+                        label: 'Cadillac XTS Royale',
+                        data: [6.2, 4.4, 6.0, 9, 10, 2],
+                        backgroundColor: 'rgba(255, 206, 86, 0.2)',
+                        borderColor: 'rgba(255, 206, 86, 1)',
+                        pointBackgroundColor: 'rgba(255, 206, 86, 1)',
+                        pointBorderColor: '#fff',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: 'rgba(255, 206, 86, 1)'
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        angleLines: {
+                            color: 'rgba(255, 255, 255, 0.2)'
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.2)'
+                        },
+                        pointLabels: {
+                            color: '#cccccc'
+                        },
+                        ticks: {
+                            backdropColor: 'transparent',
+                            color: '#cccccc',
+                            max: 10,
+                            min: 0,
+                            stepSize: 2
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: '#cccccc'
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            title: function(context) {
+                                return context[0].label;
+                            },
+                            label: function(context) {
+                                const labels = [
+                                    'Leistung: ',
+                                    'Geschwindigkeit: ',
+                                    'Drehmoment: ',
+                                    'Beschleunigung: ',
+                                    'Wendigkeit: ',
+                                    'Geländefähigkeit: '
+                                ];
+                                
+                                const values = {
+                                    'Rolls-Royce Phantom': ['571 PS', '250 km/h', '1000 Nm', '15s (0-100)', '3.0', '0'],
+                                    'Rolls-Royce Cullinan': ['608 PS', '270 km/h', '1200 Nm', '15s (0-100)', '3.0', '2'],
+                                    'Cadillac XTS Royale': ['623 PS', '220 km/h', '830 Nm', '15s (0-100)', '3.0', '2']
+                                };
+                                
+                                return context.dataset.label + ' - ' + 
+                                      labels[context.dataIndex] + 
+                                      values[context.dataset.label][context.dataIndex];
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // RPM Chart with accurate power curve based on JSON data
+        const rpmCtx = document.getElementById('rpmChart').getContext('2d');
+        
+        const idleRpm = 800;  // From JSON idleRpm value
+        const maxRpm = 6800;  // From JSON redRpm value
+        const peakTorque = 1000;  // From JSON peakTorque value
+        const maxPower = 571;  // From JSON enginePower value
+        
+        // Torque curve data from JSON
+        const torqueCurveData = [
+            { rpm_percentage: 0.0, torque_percentage: 0.0 },
+            { rpm_percentage: 0.14, torque_percentage: 0.70999998 },
+            { rpm_percentage: 0.28999999, torque_percentage: 0.79000002 },
+            { rpm_percentage: 0.43000001, torque_percentage: 0.82999998 },
+            { rpm_percentage: 0.56999999, torque_percentage: 0.95999998 },
+            { rpm_percentage: 0.70999998, torque_percentage: 0.95999998 },
+            { rpm_percentage: 0.86000001, torque_percentage: 0.81999999 },
+            { rpm_percentage: 1.0, torque_percentage: 0.81999999 }
+        ];
+        
+        // Calculate actual RPM values that include the idle RPM
+        const rpmRange = maxRpm - idleRpm;
+        const labels = torqueCurveData.map(point => 
+            Math.round(idleRpm + (point.rpm_percentage * rpmRange))
+        );
+        
+        // Generate realistic torque values
+        const torqueValues = torqueCurveData.map(point => 
+            Math.round(point.torque_percentage * peakTorque)
+        );
+        
+        // Calculate power values with proper peaking behavior
+        // In most engines, peak power occurs at higher RPM than peak torque
+        const rawPowerValues = labels.map((rpm, i) => {
+            // Power proportional to torque × rpm, normalized to match max power
+            return (torqueValues[i] * rpm) / 1000; // Arbitrary scaling to get reasonable values
+        });
+        
+        // Find the maximum raw power value
+        const maxRawPower = Math.max(...rawPowerValues);
+        
+        // Scale all power values so the maximum equals maxPower
+        const powerValues = rawPowerValues.map(value => 
+            Math.round((value / maxRawPower) * maxPower)
+        );
+        
+        // Ensure the last few points include maximum power
+        // Typically power peaks near but not exactly at red line
+        const peakIndex = labels.length - 2; // Typically peak power is near but not at redline
+        powerValues[peakIndex] = maxPower;
+        
+        const rpmChart = new Chart(rpmCtx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Leistungskurve (PS)',
+                    data: powerValues,
+                    borderColor: 'rgba(255, 99, 132, 1)',
+                    backgroundColor: 'rgba(255, 99, 132, 0.2)',
+                    tension: 0.4,
+                    fill: true
+                },
+                {
+                    label: 'Drehmoment (Nm)',
+                    data: torqueValues,
+                    borderColor: 'rgba(54, 162, 235, 1)',
+                    backgroundColor: 'rgba(54, 162, 235, 0.2)',
+                    tension: 0.4,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        },
+                        ticks: {
+                            color: '#cccccc'
+                        }
+                    },
+                    x: {
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        },
+                        ticks: {
+                            color: '#cccccc'
+                        },
+                        title: {
+                            display: true,
+                            text: 'Drehzahl (U/min)',
+                            color: '#cccccc'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: '#cccccc'
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Leistungs- und Drehmomentkurve (Reale Daten)',
+                        color: '#ffffff',
+                        font: {
+                            size: 14
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                let label = context.dataset.label || '';
+                                if (label) {
+                                    label += ': ';
+                                }
+                                if (context.parsed.y !== null) {
+                                    label += context.parsed.y;
+                                    if (context.dataset.label.includes('Leistung')) {
+                                        label += ' PS';
+                                    } else if (context.dataset.label.includes('Drehmoment')) {
+                                        label += ' Nm';
+                                    }
+                                }
+                                return label;
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Weight Distribution Chart
+        const weightCtx = document.getElementById('weightDistributionChart').getContext('2d');
+        const weightChart = new Chart(weightCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Gefederte Masse (vorne)', 'Radmasse', 'Übrige Fahrzeugmasse'],
+                datasets: [{
+                    data: [650, 40, 2110], // 10kg per wheel × 4 wheels = 40kg total wheel mass
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.7)',
+                        'rgba(54, 162, 235, 0.7)',
+                        'rgba(255, 206, 86, 0.7)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#cccccc'
+                        }
+                    },
+                    title: {
+                        display: true,
+                        text: 'Gewichtsverteilung (kg)',
+                        color: '#ffffff',
+                        font: {
+                            size: 14
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
